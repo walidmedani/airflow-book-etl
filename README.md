@@ -1,4 +1,4 @@
-# Data Engineering Pipeline: Book Scraper & PostgreSQL ETL
+# Automated Web-to-Postgres ETL Pipeline with Airflow & Docker
 ![Project Pipeline Diagram](images/book_pipeline.png)
 
 ## 📖 Summary
@@ -48,3 +48,5 @@ The pipeline initiates an automated web crawl of targeted product catalogs.
   - Database Integration: Utilizing the PostgresHook, the pipeline performs batch inserts into a persistent storage layer.
 
   - Schema Enforcement: Automated DDL execution ensures the destination table is pre-configured with correct data types (SERIAL, TEXT, INTEGER) and primary key constraints.
+
+![Data Dictionary](images/data_dictionary.png)
