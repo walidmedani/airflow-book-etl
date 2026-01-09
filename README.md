@@ -1,6 +1,7 @@
 # Data Engineering Pipeline: Book Scraper & PostgreSQL ETL
+![Project Pipeline Diagram](images/book_pipeline.png)
 
-## 📖 Executive Summary
+## 📖 Summary
 
 This project demonstrates a production-ready ETL (Extract, Transform, Load) pipeline designed to automate the collection and storage of market data. By orchestrating a containerized environment with Apache Airflow 3.0, the pipeline extracts real-time product data, transforms it into a structured format using Pandas, and loads it into a PostgreSQL data warehouse.
 
